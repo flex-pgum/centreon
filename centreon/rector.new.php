@@ -21,6 +21,8 @@
 
 declare(strict_types=1);
 
+use Rector\Php81\Rector\Property\ReadOnlyPropertyRector;
+
 $rectorConfig = require_once __DIR__ . '/../php-tools/rector/config/base.strict.php';
 
 return $rectorConfig
@@ -39,4 +41,8 @@ return $rectorConfig
         __DIR__ . '/rector.core.php',
         __DIR__ . '/rector.legacy.php',
         __DIR__ . '/rector.new.php',
-    ]);
+    ])
+    ->withSkip([
+        ReadOnlyPropertyRector::class => __DIR__ . '/src/App/*/Aggregate/*',
+    ])
+;
