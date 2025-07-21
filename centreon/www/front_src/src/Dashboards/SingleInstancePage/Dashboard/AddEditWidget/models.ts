@@ -66,6 +66,8 @@ export interface WidgetPropertyProps {
   isRequiredProperty?: boolean;
   tooltipLabel?: string;
   subInputsDelimiter?: string;
+  labelDisplayUpToOverride?: string;
+  labelTilesOverride?: string;
 }
 
 export interface WidgetDataResource {
