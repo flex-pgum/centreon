@@ -4922,6 +4922,14 @@ msgstr ""
 msgid "Do you want to save the changes?"
 msgstr ""
 
+#: centreon/www/install/front_translate.php
+msgid "Do you want to switch to classic mode?"
+msgstr ""
+
+#: centreon/www/install/front_translate.php
+msgid "Do you want to switch to regex mode?"
+msgstr ""
+
 #: centreon/www/include/configuration/configObject/service_template_model/formServiceTemplateModel.php
 #: centreon/www/include/configuration/configObject/service/formService.php
 #: centreon/www/include/configuration/configObject/host_categories/formHostCategories.php
@@ -5611,6 +5619,14 @@ msgstr "Engine Status"
 #: centreon/www/install/menu_translation.php
 msgid "Engine configuration"
 msgstr "Enginekonfiguration"
+
+#: centreon/www/install/front_translate.php
+msgid "Enter Regex"
+msgstr ""
+
+#: centreon/www/install/front_translate.php
+msgid "Enter regex mode"
+msgstr ""
 
 #: centreon/www/include/monitoring/acknowlegement/xml/broker/makeXMLForAck.php
 #: centreon/www/include/monitoring/objectDetails/hostDetails.php
@@ -6640,6 +6656,10 @@ msgstr ""
 
 #: centreon/www/install/front_translate.php
 msgid "Exit edition mode"
+msgstr ""
+
+#: centreon/www/install/front_translate.php
+msgid "Exit regex mode"
 msgstr ""
 
 #: centreon/www/install/front_translate.php
@@ -15643,6 +15663,10 @@ msgstr ""
 msgid "The class %s does not exist"
 msgstr "Die Klasse %s existiert nicht"
 
+#: centreon/www/include/configuration/configServers/formServers.php
+msgid "The command format is invalid"
+msgstr ""
+
 #: centreon/src/Centreon/Domain/Engine/EngineService.php
 msgid "The contact alias is empty"
 msgstr "Der Kontakt-Alias ist leer"
@@ -15896,6 +15920,10 @@ msgstr ""
 msgid "The path does not exist"
 msgstr "Der Pfad existiert nicht"
 
+#: centreon/www/include/configuration/configServers/formServers.php
+msgid "The path format is invalid"
+msgstr ""
+
 #: centreon/src/Centreon/Domain/PlatformTopology/Exception/PlatformTopologyException.php
 #, php-format
 msgid "The platform '%s'@'%s' cannot be found on the Central"
@@ -15994,6 +16022,10 @@ msgstr ""
 
 #: centreon/www/install/front_translate.php
 msgid "The resource access rule was successfully updated"
+msgstr ""
+
+#: centreon/www/include/configuration/configServers/formServers.php
+msgid "The script path is invalid"
 msgstr ""
 
 #: centreon/www/install/front_translate.php
@@ -18418,6 +18450,14 @@ msgstr ""
 "unterscheiden"
 
 #: centreon/www/install/front_translate.php
+msgid "Your changes will not be saved if you leave classic mode."
+msgstr ""
+
+#: centreon/www/install/front_translate.php
+msgid "Your changes will not be saved if you leave regex mode."
+msgstr ""
+
+#: centreon/www/install/front_translate.php
 msgid "Your changes will not be saved if you leave this page."
 msgstr ""
 
@@ -19691,37 +19731,37 @@ msgstr "Adresse6"
 # msgstr ""
 
 # msgid "Business Activity availability history"
-# msgstr "Historique de la disponibilité d’une Activité Métier"
+# msgstr ""
 
-# msgid "Displays availability, performance and alerts for a Business Activity"
-# msgstr "Affiche l’historique de la disponibilité d'une activité métier ou vue métier pour une période donnée."
+# msgid "Displays the availability history of a Business Activity or a Business View for a given period."
+# msgstr ""
 
 # msgid "Aggregation frequency"
-# msgstr "Fréquence d'agrégation"
+# msgstr ""
 
 # msgid "Reporting period"
-# msgstr "Période de génération"
+# msgstr ""
 
 # msgid "This month"
-# msgstr "Ce mois-ci"
+# msgstr ""
 
 # msgid "This year"
-# msgstr "Cette année"
+# msgstr ""
 
-# msgid "Display availability as"
-# msgstr "Afficher la disponibilité comme"
+# msgid "Display availability and performance as"
+# msgstr ""
 
 # msgid "Y-axis boundaries"
-# msgstr "Limitations de l'axe Y"
+# msgstr ""
 
 # msgid "Thresholds can be hidden if the custom min and max values of the Y axis are below/above the thresholds."
-# msgstr "Les seuils peuvent être masqués si les valeurs min et max personnalisées de l'axe Y sont inférieures/supérieures aux seuils."
+# msgstr ""
 
 # msgid "By default, the data of Business Views is aggregated monthly over the past 12 months (if available)."
-# msgstr "Par défaut, les données des vues métier sont agrégées mensuellement sur les 12 derniers mois (si disponibles)."
+# msgstr ""
 
 # msgid "Custom boundaries apply to the percentage."
-# msgstr "Les limitations personnalisées s'appliquent au pourcentage."
+# msgstr ""
 
 #  msgid "Display view:"
 #  msgstr ""
@@ -19739,6 +19779,22 @@ msgstr "Adresse6"
 msgid "Advanced mode"
 msgstr "Erweiterter Modus"
 
+# msgid "Enter regex mode"
+# msgstr ""
+# msgid "Exit regex mode"
+# msgstr ""
+# msgid "Enter regex"
+# msgstr "Saisir une regex"
+# msgid "Do you want to switch to classic mode?"
+# msgstr ""
+# msgid "Do you want to switch to regex mode?"
+# msgstr ""
+# msgid "Your changes will not be saved if you leave regex mode."
+# msgstr ""
+# msgid "Your changes will not be saved if you leave classic mode."
+# msgstr ""
+# msgid "Stay"
+# msgstr ""
 #: unknown
 msgid "Append"
 msgstr "Anhängen"

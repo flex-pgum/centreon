@@ -68,11 +68,12 @@ export interface WidgetPropertyProps {
   subInputsDelimiter?: string;
   labelDisplayUpToOverride?: string;
   labelTilesOverride?: string;
+  allowRegexOnResourceTypes?: Array<WidgetResourceType>;
 }
 
 export interface WidgetDataResource {
   resourceType: WidgetResourceType;
-  resources: Array<SelectEntry>;
+  resources: Array<SelectEntry> | string;
 }
 export interface WidgetDataMetric {
   id: number;
